@@ -1,0 +1,45 @@
+body{
+    width: 1440px;
+    background: hsl(212, 45%, 89%);
+
+}
+
+.content{
+    display: block;
+    margin: 6% auto 0 auto;
+    border-radius: 20px;
+     width: 280px;
+     height: 450px;
+     border:2px solid hsl(0, 0%, 100%);
+     background-color:hsl(0, 0%, 100%);
+     text-align: center;
+     padding: 20px;
+     overflow:hidden;
+     padding: 1%;
+
+}
+h1{
+    font-family:outfit;
+    font-size: 19px;
+    padding: 2.5%;
+    color: hsl(218, 44%, 22%);
+    width: 400px,700px;
+}
+p{
+    font-size:15px;
+    padding: 3%;
+}
+.qr{
+    width: 280px;
+    border-radius: 21px;
+    display: block;
+}
+
+@media only screen and (max-width:500px){
+body{
+    width: 375px;
+}
+.content{
+    margin: 6% auto 0 auto;
+}
+}
